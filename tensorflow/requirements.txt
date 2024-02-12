@@ -1,0 +1,6 @@
+tensorflow
+datetime
+numpy
+pandas
+seaborn
+matplotlib  
