@@ -1,2 +1,2 @@
-docker run --volume /home/gakusei-test/home_workspace/pytorch/test/workspace:/app -it tensorflow-test
+docker run --volume $PWD/workspace:/app/workspace --volume /home/gakusei-test/Databox:/app/Databox -it pytorch-test
 

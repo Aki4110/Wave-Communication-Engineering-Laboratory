@@ -1,0 +1,10 @@
+torch
+datetime
+numpy
+pandas
+seaborn
+matplotlib  # これが修正後の行です
+japanize_matplotlib 
+torchvision
+torchsummary
+scikit-learn

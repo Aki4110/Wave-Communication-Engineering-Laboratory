@@ -17,5 +17,7 @@ RUN pip3 install --no-cache-dir -r /tmp/requirements.txt
 COPY . /app
 WORKDIR /app
 
+RUN makdir Databox 
+
 # コマンド実行
 #CMD ["python3", "your_script.py"]

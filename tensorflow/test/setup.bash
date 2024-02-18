@@ -1,1 +1,2 @@
-docker run --volume /home/gakusei-test/workspace/tensorflow/test/workspace:/app -it tensorflow-test
+docker run --volume $PWD/workspace:/app -it tensorflow-test
+
